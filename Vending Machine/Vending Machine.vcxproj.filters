@@ -41,5 +41,13 @@
     <ClCompile Include="Drink.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="unittest2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="unittest3.cpp">
+      <Filter>Source Files</Filter>
+    </None>
   </ItemGroup>
 </Project>

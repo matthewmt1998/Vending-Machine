@@ -42,15 +42,5 @@ namespace VendingMachine
 			int expectedMoneyValue = 200;
 			Assert::AreEqual(expectedMoneyValue, GrabThis->getMoneyValue());
 		}
-	
-	TEST_METHOD(Drink_Test_Name)
-	{
-		Drink*GrabThis = new Drink("Coke",1);
-		std::string expecteddrinkname = "Coke";
-		int expecteddrinkprice = 1;
-		Assert::AreEqual(expecteddrinkname, GrabThis->getdrinkname());
-		Assert::AreEqual(expecteddrinkprice, GrabThis->getdrinkvalue());
-	}
-	
 	};
 }

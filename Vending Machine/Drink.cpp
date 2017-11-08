@@ -1,13 +1,14 @@
 #include "stdafx.h"
 #include "Drink.h"
 
+Drink::Drink( int drinkv)
+{
+	drinkvalue = drinkv;
+}
 
-Drink::Drink(std::string name, int drinkv)
+Drink::Drink(std::string name)
 {
 	drinkname = name;
-	drinkvalue = drinkv;
-
-
 }
 
 
