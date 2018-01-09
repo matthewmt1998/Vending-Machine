@@ -1,6 +1,5 @@
 #pragma once
 #include <iostream>
-#include <vector>
 class Drink
 {
 private:
@@ -9,8 +8,10 @@ private:
 public:
 	Drink(std::string name);
 	std::string getdrinkname();
+
 	Drink(int drinkv);
 	int getdrinkvalue();
+
 	~Drink();
 };
 

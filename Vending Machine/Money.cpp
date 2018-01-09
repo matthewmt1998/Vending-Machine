@@ -1,4 +1,5 @@
 #include "stdafx.h"
+#include "IPayment.h"
 #include "Money.h"
 
 

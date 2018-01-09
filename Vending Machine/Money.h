@@ -6,6 +6,7 @@ private:
 public:
 	Money(int moneyv);
 	int getMoneyValue();
+	void 
 	~Money();
 };
 

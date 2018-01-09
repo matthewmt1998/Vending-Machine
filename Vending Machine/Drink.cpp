@@ -10,11 +10,7 @@ Drink::Drink(std::string name)
 {
 	drinkname = name;
 }
-
-
-Drink::~Drink()
-{
-}
+Drink::~Drink() { }
 
 int Drink::getdrinkvalue()
 {

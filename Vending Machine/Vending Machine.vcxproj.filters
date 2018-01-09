@@ -27,12 +27,36 @@
     <ClInclude Include="Drink.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="DrinkList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VendingMachine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MoneyBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CoinPaymentInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IDisplay.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LcdDisplay.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ReceiptPrinter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DeleteHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IPayment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="unittest1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Money.cpp">
@@ -41,13 +65,38 @@
     <ClCompile Include="Drink.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="unittest2.cpp">
+    <ClCompile Include="MoneyTest.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="unittest3.cpp">
+    <ClCompile Include="DrinkTest.cpp">
       <Filter>Source Files</Filter>
-    </None>
+    </ClCompile>
+    <ClCompile Include="TestVendingMachine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VendingMachine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MoneyBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MoneyBoxTesting.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CoinPaymentInterface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LcdDisplay.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ReceiptPrinter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DeleteHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DeleteHelperTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
